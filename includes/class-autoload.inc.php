@@ -1,4 +1,5 @@
 <?php
+//This autoloads all our classes so we don't have to initialize everytime we create a new class.
 spl_autoload_register('myAutoLoader');
 
 function myAutoLoader($className){
